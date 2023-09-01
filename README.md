@@ -244,8 +244,8 @@ This is an example of how connection factory should work with DESCRIPTOR. With s
  return ConnectionFactoryBuilder.withOptions(ConnectionFactoryOptions.builder()
                 .option(ConnectionFactoryOptions.DRIVER, "oracle")
                 .option(OracleR2dbcOptions.DESCRIPTOR, DESCRIPTOR)
-                .option(ConnectionFactoryOptions.USER, "BOP")
-                .option(ConnectionFactoryOptions.PASSWORD, "bop_adm12S")
+                .option(ConnectionFactoryOptions.USER, "XXX")
+                .option(ConnectionFactoryOptions.PASSWORD, "XXXXXXXX")
         ).build();
 ```
 
